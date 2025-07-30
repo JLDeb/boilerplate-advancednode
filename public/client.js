@@ -7,3 +7,6 @@ $(document).ready(function () {
     return false; // prevent form submit from refreshing page
   });
 });
+app.set('view engine', 'pug');
+app.set('views', './views/pug');
+res.render(index);
